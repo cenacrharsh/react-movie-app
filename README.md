@@ -7,3 +7,4 @@
 ## Lessons Learned
 
 - API USED: TMDB API
+- Using Syled Components for Styling
