@@ -11,3 +11,4 @@
 - Used React-Routers
 - React Hooks Used: `useState()` `useEffect()` `useRef()` `useCallback()`
 - Created Custom React Hooks
+- used `PropTypes` 
