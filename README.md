@@ -12,7 +12,8 @@
 - API USED: TMDB API
 - Using Syled Components for Styling
 - Used React-Routers
-- React Hooks Used: `useState()` `useEffect()` `useRef()` `useCallback()`
+- React Hooks Used: `useState()` `useEffect()` `useRef()` `useCallback()` `useContext()` `useNavigate()`
 - Created Custom React Hooks
 - used `PropTypes`
 - Persistant state using **Session Storage** in Browser to improve Performance
+- used Global Context to add Login Functionality and Rating the movies (using TMDB account)
