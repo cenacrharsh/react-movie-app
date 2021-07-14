@@ -1,6 +1,6 @@
 <h1 align=center>React Movie Database</h1>
 
-## [DEMO]()
+## [DEMO](https://react-movie-app-project.netlify.app/)
 
 ![ss](./ss/ss1.png)
 ![ss](./ss/ss2.png)
