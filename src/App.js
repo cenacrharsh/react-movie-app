@@ -1,5 +1,8 @@
 import React from "react";
 
+/*Context*/
+import UserProvider from "./context";
+
 /*Routing*/
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -14,13 +17,15 @@ import { GlobalStyle } from "./GlobalStyle";
 
 const App = () => (
   <Router>
-    <Header />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/:movieId" element={<Movie />} />
-      <Route path="/*" element={<NotFound />} />
-    </Routes>
-    <GlobalStyle />
+    <UserProvider>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/:movieId" element={<Movie />} />
+        <Route path="/*" element={<NotFound />} />
+      </Routes>
+      <GlobalStyle />
+    </UserProvider>
   </Router>
 );
 
