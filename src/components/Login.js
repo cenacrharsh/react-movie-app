@@ -47,7 +47,7 @@ const Login = () => {
         username,
         password
       );
-      console.log(sessionId);
+      console.log("session id is: ", sessionId);
       setUser({ sessionId: sessionId.session_id, username });
 
       navigate("/");
