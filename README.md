@@ -2,6 +2,8 @@
 
 ## [DEMO](https://react-movie-app-project.netlify.app/)
 
+## Refactored Code Using **Typescript** : [GitHub-Repo](https://github.com/cenacrharsh/react-movie-app-typescript)
+
 ![ss](./ss/ss1.png)
 ![ss](./ss/ss2.png)
 ![ss](./ss/ss3.png)
