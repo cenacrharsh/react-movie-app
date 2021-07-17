@@ -24,9 +24,27 @@ const Header = () => {
         </Link>
 
         {user ? (
-          <span>Logged in as: {user.username}</span>
+          <span
+            style={{
+              fontSize: "1rem",
+              margin: ".5rem",
+            }}
+          >
+            Logged in as: {user.username}
+          </span>
         ) : (
-          <Link to="/login">
+          <Link
+            style={{
+              border: "2px solid white",
+              padding: ".2rem",
+              margin: ".5rem",
+              borderRadius: ".3rem",
+              fontSize: "1.1rem",
+              marginLeft: "auto",
+              marginBottom: ".8rem",
+            }}
+            to="/login"
+          >
             <span>Log in</span>
           </Link>
         )}
